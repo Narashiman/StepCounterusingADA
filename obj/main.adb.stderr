@@ -1,0 +1,2 @@
+main.adb:7:22: warning: unit "MicroBit.Display.Symbols" is not referenced
+main.adb:42:21: warning: "DataX" may be referenced before it has a value

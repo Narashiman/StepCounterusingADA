@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/StepCounter.gpr
+20210131202627 f5016d7b02a42609554758634394327f
+/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/microbit_zfp.gpr
+20210129193436 6fac680282c5ad53a585cdadd20fd9a2
+[BOUND OBJECT FILES]
+/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/obj/
+-L/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/obj/
+-L/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/obj/zfp_lib_Debug/
+-L/home/narashiman/Apps/GNAT/2020-arm-elf/arm-eabi/lib/gnat/zfp-cortex-m0/adalib/
+-static
+-static-libgcc
+/home/narashiman/Apps/GNAT/2020-arm-elf/arm-eabi/lib/gnat/zfp-cortex-m0/adalib/libgnat.a

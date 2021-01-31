@@ -1,0 +1,32 @@
+graph: { title: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb"
+node: { title: "_ada_main" label: "Main\n/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:14:1\n152 bytes (dynamic)" }
+node: { title: "microbit__accelerometer__data" label: "Data\n/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/src/microbit-accelerometer.ads:36:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__accelerometer__data" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:35:28" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+node: { title: "system__img_int__image_integer" label: "Image_Integer\n/home/narashiman/Apps/GNAT/2020-arm-elf/arm-eabi/lib/gnat/zfp-cortex-m0/gnat/s-imgint.ads:39:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:39:31" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:40:31" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:41:31" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+node: { title: "microbit__console__put_line" label: "Put_Line\n/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/src/microbit-console.ads:43:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:39:14" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:43:37" }
+node: { title: "__aeabi_idivmod" label: "aeabi_idivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "__aeabi_idivmod" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:45:25" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:45:27" }
+node: { title: "microbit__display__set" label: "Set\n/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:36:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__set" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:45:20" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:46:20" }
+edge: { sourcename: "_ada_main" targetname: "__aeabi_idivmod" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:48:25" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:48:27" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__set" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:48:20" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:49:20" }
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\n/home/narashiman/workspace/ada/Ada_Drivers_Library/boards/MicroBit/src/microbit-time.ads:41:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "/home/narashiman/workspace/ada/Ada_Drivers_Library/examples/MicroBit/StepCounter/src/main.adb:55:11" }
+}
